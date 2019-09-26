@@ -1,0 +1,8 @@
+LDFLAGS=
+LDDIR=-L$(ROOT)/lib
+LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
+CFLAGS=-ansi -I$(ROOT)/include -Wall $(EXTRA)
+RANLIB=ranlib
+AR=ar
+AWK=awk
+LIBAPUE=$(ROOT)/lib/libapue.a
